@@ -1,0 +1,65 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Team 6 IT06">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cars Quiz</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="topnav">
+            <a href="Mainpage.html">Home</a>
+            <a href="Game.html">Game</a>
+            <a href="Quizzes.html">Quizzes</a>
+            <a href="Feedback.html">Contact Us!</a>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <form action="action_page.php">
+          <div class="row">
+            <div class="col-25">
+              <label for="fname">Name</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="email">Email</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="email" name="email" placeholder="Your email..">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="Address">Address with:</label>
+            </div>
+            <div class="col-75">
+              <select id="Address" name="Address">
+                <option value=" ">- Select -</option>
+                <option value="Mrs.">Mrs.</option>
+                <option value="Mr.">Mr.</option>
+                <option value="Ms.">Ms.</option>
+                <option value="Miss.">Miss.</option>
+                <option value="Prefer Not To Say">Prefer Not To Say</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="subject">Subject</label>
+            </div>
+            <div class="col-75">
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="Submit">
+          </div>
+        </form>
+    </div>
+</body>
