@@ -1,50 +1,24 @@
 # Assignmet2
 
 All about cars for dummies
-One or two paragraphs providing an overview of your project. Tell us about your project.
 
-We created this website for car lovers looking for 
-
-Essentially, this part is your sales pitch.
-
-Design Process
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+We created this website for car lovers or beginners looking for information about the variety of car brands and others.
 
 We created our own individual top navigation and site pages to test each other's creativity before we decide what we wanted to show. Next, we went with Jen Fei's example chosen by a third party member from another school to give us feedback on our websites. We wanted to help users that are strangers to cars to know about the different brands and car parts. We also have a short quiz mixed with questions about the car brands, its histories, and its parts, along with an interactive 3D modelling view. 
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory) Include the Adobe XD wireframe as a folder. You can include the XD share url.
-
-Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
+For the mainpage, we used parallax scrolling for the background image and used horizontal scrolling for the text on top of the background image to make it slide it right. For the parralax scrolling, we used css and for horizontal scrolling of text we used javascript to make it work. For the nav bar, we used css. When the user hovers over the options, it will enlarge and change the colour of the option. For the "learn car brand" page, we made it neat by using cards to style the car logos. And the learn more button will bring the user to another HTML page and to the specific part of the page where the infomation of the specifc car brand the user selected. Next for the "Learn Car part", we used pop up windows when the user clicks on the specific car part it will bring a pop up window where it displays a 3D model of the car part the user selected and a summary of the car part. And we used java script for the close button. After that for the quizzes page, we have a short quiz of 5 questions of a total of 13 questions where the user can choose to play again after completion or go back to the mainpage. For the quiz, we used html, css and javascript. There is also a 'game' where the user can play around with 3d models of legendary cars. Lastly, we have a feedback page connected to the RestDB API for users to submit their suggestions aand critics while entering their name and email. Their feedbacks will then be displayed at the bottom of the page along with their name on the right.
 
 Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+Feature 1 - allows users to play with 3D models of legendary cars and car parts by clicking onto it.
+Feature 2 - allows users to navigate through the website from the top navigation bar
+Feature 3 - Mini Quiz of 5 questions out of a total of 13 about car parts, car brands, etc.
+Feature 4 - Feedback page where recent feedbacks will be displayed after user click submit
 
-Features Left to Implement
-Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
+We wanted to possibly add more quizzes and videos for easier understanding for the users' experiences. Other than that, more 3d models of cars or the different type of the specific car parts could help attract more of the users attention to the website. We also wanted to make our information page more interactive or stylish instead of blocks of texts.
 
-JQuery
 The project uses JQuery to simplify DOM manipulation.
-Testing
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
 
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Some problems would be to refresh the page or go to a different page after user clicks the submit button in the feedback page. This is to ensure that the user does not think that the website is lagging and spam click the button. Spam clicking the button will result in multiple displays of the same feedback.
 
 Credits
 Content
@@ -71,4 +45,4 @@ https://www.carlogos.org/car-brands/holden-logo.html
 https://www.vindevers.com/history-of-the-audi-logo/
 
 Acknowledgements
-I received inspiration for this project from Jen Fei's Assignment 1 website and James Q Quick on YouTube.
+We received inspiration for this project from Jen Fei's Assignment 1 website and James Q Quick on YouTube.
