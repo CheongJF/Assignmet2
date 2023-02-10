@@ -1,17 +1,19 @@
-<!DOCTYPE html>
+
+
+  <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="mainpage.css">
+<title>Page Title</title>
+        <link rel="stylesheet" href="mainpage.css">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        
 
 </head>
 <body>
-  <img src="car_for_asg2.png" alt="car icon logo" style="width:250px;height:70px;padding-left: 100px;padding-top: 10px;">
+    <img src="car_for_asg2.png" alt="car icon logo" style="width:250px;height:70px;padding-left: 200px;padding-top: 10px;">
     <div class="topnav" id="myTopnav">
         
-        <a href="#home" class="active">Home</a>
+        <a href="mainpage.html" class="active">Home</a>
         <div class="dropdown">
           <button class="dropbtn">Learn</button>
 
@@ -34,9 +36,26 @@
         <a href="game.html">Game</a>
         <a href="feedback.html">Feedback to us</a>
         <a href="script.js" class="icon" onclick="myFunction()"></a>
-        
-        <script src="getapi.js"></script>
-        
       </div>
-    </body>      
+
+    <div class="containerforfeedback">
+    <form>
+  
+      <label for="name">Full Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+  
+      <label for="email">Email</label>
+      <input type="text" id="email" name="emailadd" placeholder="Your email address">
+
+      <label for="subject">Feedback</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+  
+      <input type="submit" id = "submit" value="Submit">
+  
+    </form>
+  </div>
+  <div id="feedbacks"></div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
 </html>
