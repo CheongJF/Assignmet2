@@ -1,27 +1,50 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Sketchfab Viewer API example</title>
+    <link rel="stylesheet" href="mainpage.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
 
     <script type="text/javascript" src="https://static.sketchfab.com/api/sketchfab-viewer-1.12.1.js"></script>
-    <style>
     
-    .hidden {
-        visibility: hidden;
-        height: 0;
-        width: 0;
-    }
-    </style>
 </head>
+<body>
+	<img src="car_for_asg2.png" alt="car icon logo" style="width:250px;height:70px;padding-left: 100px;padding-top: 10px;">
+    <div class="topnav" id="myTopnav">
+        
+        <a href="mainpage.html" class="active">Home</a>
+        <div class="dropdown">
+          <button class="dropbtn">Learn</button>
 
+          <div class="dropdown-content">
+            <a href="LearnCarBrand.html">Car brand</a>
+            <a href="LearnAboutCarPart.html">Car parts</a>
+          </div>
+        </div>
+        
+        <div class="dropdown">
+          <button class="dropbtn">Car Quizzes</button>
 
-<div class="sketchfab-embed-wrapper"> <iframe title="FREE 1975 Porsche 911 (930) Turbo" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="840" height="480" src="https://sketchfab.com/models/8568d9d14a994b9cae59499f0dbed21e/embed"></iframe> 
-  <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> 
-    
-    <div class="sketchfab-embed-wrapper"> <iframe title="Honda NSX 1990" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/1cc15628a00a4739a6b6c01128927c8d/embed?ui_theme=dark"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/honda-nsx-1990-1cc15628a00a4739a6b6c01128927c8d?utm_medium=embed&utm_campaign=share-popup&utm_content=1cc15628a00a4739a6b6c01128927c8d" target="_blank" style="font-weight: bold; color: #1CAAD9;"> Honda NSX 1990 </a> by <a href="https://sketchfab.com/Lexyc16?utm_medium=embed&utm_campaign=share-popup&utm_content=1cc15628a00a4739a6b6c01128927c8d" target="_blank" style="font-weight: bold; color: #1CAAD9;"> Lexyc16 </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=1cc15628a00a4739a6b6c01128927c8d" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
-    <div class="sketchfab-embed-wrapper"> <iframe title="Tomei Turbo." frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/989ec399b2d84e44854547356d1baf2b/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/tomei-turbo-989ec399b2d84e44854547356d1baf2b?utm_medium=embed&utm_campaign=share-popup&utm_content=989ec399b2d84e44854547356d1baf2b" target="_blank" style="font-weight: bold; color: #1CAAD9;"> Tomei Turbo. </a> by <a href="https://sketchfab.com/Billygoatgame?utm_medium=embed&utm_campaign=share-popup&utm_content=989ec399b2d84e44854547356d1baf2b" target="_blank" style="font-weight: bold; color: #1CAAD9;"> BillyGoat </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=989ec399b2d84e44854547356d1baf2b" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+          <div class="dropdown-content">
+            <a href="CarBrand.html">The Ultimate Car Quiz</a>
+            
+          </div>
+        </div>
+        <a href="game.html">Game</a>
+        <a href="feedback.html">Feedback to us</a>
+		
+        <a href="script.js" class="icon" onclick="myFunction()"></a>
+    </div>
+
+    <h1 style="text-align: center;text-decoration: underline;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">Legendary Cars</h1>
+
+    <div class="center_3d_model">
+        <h1 style="font-family: cursive;padding-top:50px;">The Famous 911 turbo</h1>
+    <div class="sketchfab-embed-wrapper"> <iframe title="FREE 1975 Porsche 911 (930) Turbo" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="840" height="480" src="https://sketchfab.com/models/8568d9d14a994b9cae59499f0dbed21e/embed"></iframe> 
+  
+    <h1 style="font-family: cursive;">The Legendary NXS 90`</h1>
+    <div class="sketchfab-embed-wrapper"> <iframe title="Honda NSX 1990" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share width="840" height="480" src="https://sketchfab.com/models/1cc15628a00a4739a6b6c01128927c8d/embed?ui_theme=dark"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/honda-nsx-1990-1cc15628a00a4739a6b6c01128927c8d?utm_medium=embed&utm_campaign=share-popup&utm_content=1cc15628a00a4739a6b6c01128927c8d" target="_blank" style="font-weight: bold; color: #1CAAD9;"> Honda NSX 1990 </a> by <a href="https://sketchfab.com/Lexyc16?utm_medium=embed&utm_campaign=share-popup&utm_content=1cc15628a00a4739a6b6c01128927c8d" target="_blank" style="font-weight: bold; color: #1CAAD9;"> Lexyc16 </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=1cc15628a00a4739a6b6c01128927c8d" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+</div>
 </body>
 
 </html>
