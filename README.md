@@ -3,10 +3,14 @@
 All about cars for dummies
 One or two paragraphs providing an overview of your project. Tell us about your project.
 
+We created this website for car lovers looking for 
+
 Essentially, this part is your sales pitch.
 
 Design Process
 Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+
+We created our own individual top navigation and site pages to test each other's creativity before we decide what we wanted to show. Next, we went with Jen Fei's example chosen by a third party member from another school to give us feedback on our websites. We wanted to help users that are strangers to cars to know about the different brands and car parts. We also have a short quiz mixed with questions about the car brands, its histories, and its parts, along with an interactive 3D modelling view. 
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 
@@ -67,4 +71,4 @@ https://www.carlogos.org/car-brands/holden-logo.html
 https://www.vindevers.com/history-of-the-audi-logo/
 
 Acknowledgements
-I received inspiration for this project from X
+I received inspiration for this project from Jen Fei's Assignment 1 website and James Q Quick on YouTube.
