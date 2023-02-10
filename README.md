@@ -44,8 +44,27 @@ If this section grows too long, you may want to split it off into a separate fil
 
 Credits
 Content
-The text for section Y was copied from the Wikipedia article Z
+The text for car brands and car parts information was copied from chatgpt.
+
 Media
 The photos used in this site were obtained from ...
+https://www.carlogos.org/car-brands/vauxhall-logo.html
+https://listcarbrands.com/opel-logo/
+https://car-brand-names.com/chevrolet-logo/
+https://www.logo-designer.co/proton-gets-new-tiger-logo-as-part-of-brand-refresh/
+https://uk.motor1.com/news/408962/new-vw-logo-atlas/
+https://car-brand-names.com/acura-logo/
+https://www.motorauthority.com/news/1089728_cadillac-explains-why-it-dropped-the-laurel-wreaths-from-its-logo
+https://fabrikbrands.com/subaru-logo-history-subaru-emblem-subaru-symbol-meaning/
+https://www.carlogos.org/car-brands/renault-logo.html
+https://www.pxfuel.com/en/desktop-wallpaper-xlsvn
+https://grabcad.com/library/polestar-logo-1
+https://1000logos.net/mercedes-logo/
+https://1000logos.net/tesla-logo/
+https://1000logos.net/bentley-logo/
+https://1000logos.net/rolls-royce-logo/
+https://www.carlogos.org/car-brands/holden-logo.html
+https://www.vindevers.com/history-of-the-audi-logo/
+
 Acknowledgements
 I received inspiration for this project from X
